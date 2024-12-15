@@ -14,9 +14,9 @@ This repository contains an Apache Flink application for real-time sales analyti
 2. Navigate to the repository directory.
 3. Install `make` extension (or run directly command defined in Makefile)
 3. Run `make up` to start the required services (Apache Flink, Elasticsearch, Postgres).
-4. The Sales Transaction Generator ``make produce_message` helps to generate the sales transactions into Kafka.
-5. Start Transaction jon ``make transaction_job` helps to ingest raw data from Kafka topic to Postgres and Elasticsearch.
-5. Start Transaction jon ``make aggregation_job` helps to ingest raw data from Kafka topic and then aggregate data and write to Postgres 
+4. The Sales Transaction Generator `make produce_message` helps to generate the sales transactions into Kafka.
+5. Start Transaction jon `make transaction_job` helps to ingest raw data from Kafka topic to Postgres and Elasticsearch.
+5. Start Transaction jon `make aggregation_job` helps to ingest raw data from Kafka topic and then aggregate data and write to Postgres 
 
 ## Usage
 1. Ensure all Docker containers are up and running.
