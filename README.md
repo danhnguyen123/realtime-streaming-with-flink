@@ -23,7 +23,7 @@ This repository contains an Apache Flink application for real-time sales analyti
 2. Run the FlinkCommerce application provided in this repository to perform real-time analytics on financial transactions.
 
 ### Application Details
-The `/src/python/transaction_job.py` class within the `/src/python/aggregated_job.py` package serves as the main entry point for the Flink application. The application consumes financial transaction data from Kafka, performs various transformations, and stores aggregated results in both Postgres and Elasticsearch.
+The `/src/transaction_job.py` class within the `/src/aggregated_job.py` package serves as the main entry point for the Flink application. The application consumes financial transaction data from Kafka, performs various transformations, and stores aggregated results in both Postgres and Elasticsearch.
 
 ### Components
 #### Apache Flink
