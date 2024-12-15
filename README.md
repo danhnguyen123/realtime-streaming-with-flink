@@ -44,6 +44,6 @@ The `/src/python/transaction_job.py` class within the `/src/python/aggregated_jo
 ![postgres](./assets/postgres.png)
 
 ## Sink Operations
-- The application includes sink operations for Postgres using JDBC to create tables (`transactions`, `order_by_product`, `order_by_window``) and perform insert/update operations.
+- The application includes sink operations for Postgres using JDBC to create tables (`transactions`, `order_by_product`, `order_by_window`) and perform insert/update operations.
 - Additionally, it includes an Elasticsearch sink to index transaction data for further analysis.
 
