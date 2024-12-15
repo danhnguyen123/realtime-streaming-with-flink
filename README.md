@@ -35,13 +35,12 @@ The `/src/python/transaction_job.py` class within the `/src/python/aggregated_jo
 
 #### Postgres
 - Stores transaction data and aggregated results in tables (`transactions`, `order_by_product`, `order_by_window`).
-
-![postgres](./assets/elasticsearch.png)
+![postgres](./assets/postgres.png)
 
 #### Elasticsearch
 - Stores transaction data for further analysis.
 
-![postgres](./assets/postgres.png)
+![elasticsearch](./assets/elasticsearch.png)
 
 ## Sink Operations
 - The application includes sink operations for Postgres using JDBC to create tables (`transactions`, `order_by_product`, `order_by_window`) and perform insert/update operations.
