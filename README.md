@@ -7,7 +7,7 @@ This repository contains an Apache Flink application for real-time sales analyti
 - Docker Compose
 
 ## Architecture
-![System Architecture.png](System%20Architecture.png)
+![System Architecture.png](./assets/System%20Architecture.png)
 
 ## Installation and Setup
 1. Clone this repository.
